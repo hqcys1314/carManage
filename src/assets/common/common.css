@@ -1,0 +1,31 @@
+input:focus,
+area,
+area:active,
+area:focus,
+a:active,
+a:focus{outline:0;/*-moz-outline-style: none*/}
+:focus { -moz-outline-style: 0; -wekit-outline-style: none;}
+*{-webkit-tap-highlight-color:rgba(0,0,0,0);}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #ddd;
+}
+*{margin: 0;padding: 0;}
+
+html{background: #EEEEEE;}
+body{color: #7E7E7E;font-size: 12px;	background-repeat:no-repeat;
+  font-family: Helvetica, 'Hiragino Sans GB', 'Microsoft Yahei', '微软雅黑', Arial, sans-serif;}
+
+.clear{clear: both;}
+img {border:0}
+ul li{list-style-type:none;}
+a{color: #2F323D;text-decoration:none;}
+/*select{-webkit-appearance: none;-moz-appearance:none;appearance:none;background-color: #fff;display: inline-block;border: 0;outline: 0;font-family: 'Microsoft YaHei',arial,'Hiragino Sans GB',sans-serif,"宋体";}*/
+/*select option{width: 100%;}*/
+/*select::-ms-expand { display: none; }*/
+*{-webkit-tap-highlight-color:rgba(0,0,0,0);}
+[v-cloak] {display: none;}
+.bg{    position: absolute;height: 100%;
+  top: 0;left: 0;width: 100%;
+  background-color: #000000; /* 浏览器不支持的时候显示 */
+  background-image: radial-gradient(#FFFFFF, #FFFFFF, #EEEEEE); /* 标准的语法（必须放在最后） */}
+.contentCenter{width: 84%;position: fixed;right: 0;}
